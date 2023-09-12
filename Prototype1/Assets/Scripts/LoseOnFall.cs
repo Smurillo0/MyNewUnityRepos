@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿
+/*
+		 * Sarahi Murillo
+		 * LossOnFall.cs
+		 * Prototype1
+		 * If the vehicle falls from the road, they lose.
+ */
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

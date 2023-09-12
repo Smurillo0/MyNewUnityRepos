@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+		 * Sarahi Murillo
+		 * ScoreManager.cs
+		 * Prototype 1 
+		 * Boolean to determine the score and determine if a player wins or loses the game. 
+		 
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+       * Sarahi Murillo
+       * PlayerController.cs
+	   * Prototype1
+       * Added code to be able to make the vehicle move forward/back and turn left and right.
+*/
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

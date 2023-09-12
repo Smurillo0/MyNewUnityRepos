@@ -1,10 +1,11 @@
 ﻿/*
- Sarahi Murillo
- CGE 401 
- Assignment 2
- September 10, 2023
+		 * Sarahi Murillo
+		 * CamFollowPlayer.cs
+		 * Prototype 1 
+		 * Camera follows the player. Using the offset and player object we use the udpate fucntion to allow the camera to follow the player.
 
  */
+
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;

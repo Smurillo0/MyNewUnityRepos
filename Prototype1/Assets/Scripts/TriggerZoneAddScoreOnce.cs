@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+		 * Sarahi Murillo
+		 * TriggerZoneAddScoreOnce
+		 * Prototype 1
+		 * It adds a point to ScoreManager any time you collide a trigger point. 
+ */
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
