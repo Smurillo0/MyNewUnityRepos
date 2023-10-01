@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * Sarahi Murillo
+ * Prototype 3 
+ * Used booleans and functions so that player can jump
+ 
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -22,7 +28,10 @@ public class PlayerController : MonoBehaviour
         forceMode = ForceMode.Impulse;
 
         //modify gravity
-        Physics.gravity *= gravityModifier;
+        if (Physics.gravity.y > -10)
+        {
+            Physics.gravity *= gravityModifier;
+        }
     }
 
     // Update is called once per frame
@@ -40,6 +49,11 @@ public class PlayerController : MonoBehaviour
         if(collision.gameObject.CompareTag("Ground"))
         {
             isOnGround = true;
+        }
+        else if(collision.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log("Game Over!");
+            gameOver = true; 
         }
     }
 }
