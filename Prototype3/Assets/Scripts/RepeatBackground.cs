@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Sarahi Murillo
+ * Prototype 3
+ * split the background in 2 and select a satrtting position and a repeating width is one of the halves.
+ */
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
